@@ -1,11 +1,5 @@
 import java.util.Scanner;
 public class App {
-    public static void newFunc() {
-        Scanner scanner2 = new Scanner(System.in);
-        String test = scanner2.nextLine();
-        System.out.println("Test" + test);
-        scanner2.close();
-    }
     public static void main(String[] args) {
         // String firstName = "Ben";
         // String lastName = "Cox";
@@ -28,6 +22,5 @@ public class App {
         int num2 = scanner.nextInt();
         System.out.println("The sum of those numbers is: " + (num1+num2));
         scanner.close();
-        newFunc();
     }
 }
